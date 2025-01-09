@@ -23,7 +23,10 @@
     color: #181818;
 }
 .dark-2 {
-    color: #474747;
+    color: #757575;
+}
+.dark-3 {
+    color: rgba(117, 117, 117, 1);
 }
 .btn-primary {
     padding: 15px 35px;
@@ -33,10 +36,24 @@
     font-size: 20px;
     font-weight: bold;
     border: 1px solid #FD6E0A;
+    cursor: pointer;
 }
 .btn-primary:hover {
     background-color: #FFF8F3;
     color: #FD6E0A;
+}
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+.text-center {
+    text-align: center;
 }
 /* nav styles  */
 .header {
@@ -96,6 +113,7 @@ nav .nav-title {
 .banner-description {
     font-size: 18px;
     margin-bottom: 30px;
+    font-weight: 400;
     
 }
 .download {
@@ -112,4 +130,121 @@ nav .nav-title {
 }
 .banner-profile-pic {
     width: 584px;
+}
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+/* about section  */
+.about {
+    width: 1140px;
+    height: 550px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+    
+}
+.about-content {
+    max-width: 827px;
+    height: 288px;
+    background-color: #fff;
+    text-align: center;
+    padding: 2px 10px;
+    border: 1px solid #474747;    
+}
+.about-content > h3, .about-content > p {
+    margin-bottom: 30px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-between;
+}
+.about-item {
+    margin-top: 10px;
+}
+.item-title {
+    font-size: 20px;
+    /* font-weight: 400; */
+
+}
+.item-description {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* what i do section style */
+.what-i-do {
+}
+.what-i-do .section-description {
+    padding: 30px 100px;
+}
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.skill {
+    padding: 30px 33px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skill-title {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+/* resume section styles */
+.resume {
+    margin: 113px 0;
+}
+.resume-column-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 113px;
+    margin-bottom: 50px;
+    
+}
+.resume-column {
+    
+}
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 511px;
+
+}
+.exp-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+.exp-sub-title {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.exp-description {
+    margin: 10px 0;
+    font-family: 16px;
+    font-weight: 400;
+}
+.line {
+    color: rgba(209, 209, 209, 1);
+    margin-top: 10px;
 }
